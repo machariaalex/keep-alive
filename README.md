@@ -11,7 +11,7 @@ name: Keep Alive
 
 on:
   schedule:
-    - cron: '* * * * *' # Run every minute for testing, you can put 11:59 UTC🕔
+    - cron: '* * * * *'
 
 jobs:
   keep-alive:
